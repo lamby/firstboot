@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# Sync filesystems
+
+sync

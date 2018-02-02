@@ -1,0 +1,4 @@
+[Desktop Entry]
+Name=Settings
+Exec=@CMD@
+Type=Application

@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# Reboot the system
+
+reboot --no-wall

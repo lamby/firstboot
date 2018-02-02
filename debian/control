@@ -1,0 +1,48 @@
+Source: firstboot
+Section: utils
+Priority: optional
+Maintainer: Chris Lamb <lamby@debian.org>
+Build-Depends:
+ debhelper (>= 10),
+ dh-python,
+ gir1.2-gtk-3.0,
+ python3,
+ python3-gi,
+ python3-setuptools,
+Standards-Version: 4.1.0
+Homepage: http://chris-lamb.co.uk/projects/firstboot
+Vcs-Git: https://github.com/lamby/firstboot
+Vcs-Browser: https://github.com/lamby/firstboot
+
+Package: firstboot
+Architecture: all
+Depends:
+ debconf,
+ debconf-utils,
+ dmidecode,
+ feh,
+ iso-codes,
+ laptop-detect,
+ locales,
+ locales-all,
+ python3-gi,
+ python3-systemd,
+ tzdata,
+ user-setup,
+ xbacklight,
+ x11-utils,
+ xinit,
+ ${misc:Depends},
+ ${python3:Depends},
+Description: OEM setup utility
+ firstboot is a simple OEM (Original Equipment Manufacture) component to
+ provide the initial setup process for an end user.
+ .
+ Instead of providing users' with a system already setup with a predetermined
+ keyboard, username, hostname, etc., firstboot is a tool to prompt for this
+ information on the initial start of the system. This results in a superior
+ user experience for the end user and does not require them to needlessly
+ navigate the Debian Installer.
+ .
+ After the user has provided the relevant details, the settings are applied and
+ the system reboots into a standard system.

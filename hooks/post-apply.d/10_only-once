@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# Disable firstboot on next startup
+
+systemctl disable firstboot

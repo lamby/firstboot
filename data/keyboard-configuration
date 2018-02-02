@@ -1,0 +1,123 @@
+# Data taken from console-setup:debian/keyboard-configuration.config
+
+*_AL*	al
+*_AZ*	az
+*_BD*	us,bd
+*_BE*	be
+*_BG*	us,bg
+*_BR*	br
+*_BT*	us,bt
+*_BY*	us,by
+fr_CA*	ca
+*_CA*	us
+de_CH*	ch
+fr_CH*	ch	fr
+*_CH*	ch
+*_CZ*	cz
+*_DK*	dk
+*_EE*	ee
+ast_ES*	es	ast
+bo_*	us,cn	,tib
+ca_ES*	es	cat
+*_ES*	es
+*_ET*	us,et
+se_FI*	fi	smi
+*_FI*	fi
+*_FR*	fr	latin9
+*_GB*	gb
+*_GG*	gb
+*_HU*	hu
+*_IE*	ie
+*_IL*	us,il
+*_IM*	gb
+*_IR*	us,ir
+*_IS*	is
+*_IT*	it
+*_JE*	gb
+*_JP*	jp
+*_LT*	lt
+*_LV*	lv
+*_KG*	us,kg
+*_KH*	us,kh
+*_KR*	kr	kr104
+*_KZ*	us,kz
+*_LK*	us,lk
+*_MA*	us,ma
+*_MK*	us,mk
+*_NL*	us
+*_MM*	us,mm
+*_MN*	us,mn
+*_MT*	mt
+se_NO*	no	smi
+*_NO*	no
+*_NP*	us,np
+*_PH*	ph
+*_PL*	pl
+*_PT*	pt
+*_RO*	ro
+*_RU*	us,ru
+se_SE*	se	smi
+*_SK*	sk
+*_SI*	si
+tg_*	us,tj
+*_TJ*	us,tj
+*_TH*	us,th
+*_TR*	tr
+*_UA*	us,ua
+en_US*	us
+*_VN*	vn
+*_ZA*	za
+*_AR*	latam
+*_BO*	latam
+*_CL*	latam
+*_CO*	latam
+*_CR*	latam
+*_DO*	latam
+*_EC*	latam
+*_GT*	latam
+*_HN*	latam
+*_MX*	latam
+*_NI*	latam
+*_PA*	latam
+*_PE*	latam
+es_PR*	latam
+*_PY*	latam
+*_SV*	latam
+es_US*	latam
+*_UY*	latam
+*_VE*	latam
+ar_*	us,ara
+bn_*	us,in	,ben
+bs_*	ba
+de_LI*	ch
+de_*	de
+el_*	us,gr
+eo*	epo
+eo.*	epo
+eo_*	epo
+eo\@*	epo
+fr_*	fr	latin9
+gu_*	us,in	,guj
+hi_*	us,in
+hr_*	hr
+hy_*	us,am
+ka_*	us,ge
+kn_*	us,in	,kan
+ku_*	tr	ku
+lo_*	us,la
+mr_*	us,in
+ml_*	us,in	,mal
+my_*	us,mm
+ne_*	us,np
+os_*	ru	os
+pa_*	us,in	,guru
+si_*	us,si	,sin_phonetic
+sr_*	rs,rs	latin,
+sv_*	se
+ta_*	us,in	,tam
+te_*	us,in	,tel
+tg_*	us,tj
+the_*	us,np
+tl_*	ph
+ug_*	us,cn	,ug
+zh_*	cn

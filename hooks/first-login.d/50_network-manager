@@ -1,0 +1,12 @@
+#!/bin/sh
+#
+# Show the wifi settings dialog
+
+case "${XDG_CURRENT_DESKTOP}" in
+GNOME)
+	if [ -x "/usr/bin/gnome-control-center" ]
+	then
+		gnome-control-center network
+	fi
+	;;
+esac

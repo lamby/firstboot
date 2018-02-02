@@ -1,0 +1,32 @@
+#!/bin/sh
+#
+# Smoketest
+
+XSESSION="smoketest.xsession"
+
+setUp() {
+	cat >"${XSESSION}" <<EOF
+#!/bin/sh
+
+set -eu
+
+export LANG=C.UTF-8
+export LC_ALL=C.UTF-8
+
+exec firstboot
+EOF
+	chmod +x "${XSESSION}"
+}
+
+tearDown() {
+	rm -f "${XSESSION}"
+}
+
+testSuccess() {
+	timeout 1s xvfb-run -a --server-args="-screen 0 1024x768x24" \
+		dbus-launch --exit-with-session "$(pwd)/${XSESSION}"
+
+	assertEquals "Status code" "${?}" "124"
+}
+
+. /usr/bin/shunit2

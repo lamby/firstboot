@@ -1,0 +1,11 @@
+#!/bin/sh
+#
+# Does not crash if no DISPLAY is exported
+
+testNoDisplayVariable() {
+	unset DISPLAY
+	firstboot
+	assertEquals "Status code" "1" "${?}"
+}
+
+. /usr/bin/shunit2

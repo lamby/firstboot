@@ -1,0 +1,7 @@
+Tests: 0001-smoketest
+Depends: @, dbus-x11, xvfb, shunit2
+Restrictions: allow-stderr
+
+Tests: 0002-no-display-environment-variable
+Depends: @
+Restrictions: allow-stderr

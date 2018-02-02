@@ -1,0 +1,17 @@
+[Unit]
+Before=display-manager.service
+Conflicts=display-manager.service
+Documentation=https://github.com/lamby/firstboot
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+Type=simple
+Restart=always
+StartLimitBurst=5
+StartLimitIntervalSec=60
+ExecStart=/usr/bin/xinit /usr/lib/firstboot/firstboot.xinitrc -- /usr/bin/X :0
+
+[Install]
+WantedBy=multi-user.target
